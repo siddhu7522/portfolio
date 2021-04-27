@@ -1,0 +1,98 @@
+.top__main {
+    margin-top: 100px;
+   margin-left:100px;
+  }
+  .top__main img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+  }
+  .top__main p {
+    font-size: 25px;
+  }
+  .top__main button {
+    height: 40px;
+    width: 200px;
+    background-color: white;
+    color: #ff1493;
+    border: 2px solid pink;
+    font-size: 20px;
+    margin-left: -300px;
+  }
+  .top__main button:hover {
+    color: white;
+    background-color: #ff1493;
+  }
+  
+  
+  
+  .social-menu ul {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin-top:700px;
+    display: flex;
+    margin-bottom:100px;
+  }
+  .social-menu ul li {
+    list-style: none;
+    margin: 0 10px;
+  }
+  .social-menu ul li .fa {
+    color: #000000;
+    font-size: 25px;
+    line-height: 50px;
+    transition: .5s;
+  }
+  .social-menu ul li .fa:hover {
+    color: #ffffff;
+  }
+  .social-menu ul li a {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    transition: 0.5s;
+    transform: translate(0,0px);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+  }
+  .social-menu ul li a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+  }
+  .social-menu ul li:nth-child(1) a:hover {
+    background-color: #3b5999;
+  }
+  .social-menu ul li:nth-child(2) a:hover {
+    background-color: #55acee;
+  }
+  .social-menu ul li:nth-child(3) a:hover {
+    background-color: #e4405f;
+  }
+  .social-menu ul li:nth-child(4) a:hover {
+    background-color: #cd201f;
+  }
+  .social-menu ul li:nth-child(5) a:hover {
+    background-color: #0077B5;
+  }
+  @media screen and (max-width: 400px) {
+    .top__main button {
+      margin-left: 10px;
+    }
+    
+    .top__main {
+      margin-left: 30px;
+    }
+    .top__main img {
+      height: 30vh;
+      width: 30vh;
+    }
+    .social-menu ul{
+      padding-bottom:100px;
+    }
+}

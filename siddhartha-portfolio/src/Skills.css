@@ -1,0 +1,54 @@
+.skill__section{
+    padding:20px;
+    background-color:#C02425;
+    width:100%;
+    margin-bottom:100px;
+    padding:20px;
+    margin-top:200px;
+  }
+  .skill__section h1{
+    text-align: center;
+  }
+  .skill__section p{
+    color:white;
+    font-size:20px;
+  }
+  .skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+   
+  
+  }
+  .container{
+    background-color: #ddd;
+    
+  }
+  
+  .html {
+    width: 90%;
+     background-color: #808080;
+     
+    }
+  .css {
+    width: 75%;
+     background-color: #808080;
+    }
+  .javascript {
+    width: 70%;
+     background-color: #808080;
+    }
+  .jquery{
+    width: 60%; 
+    background-color: #808080;
+  }
+  .react{
+    width:70%;
+    background-color:#808080; ;
+  }
+  .firebase{
+    width:50%;
+    background-color:#808080;;
+  }
+  
