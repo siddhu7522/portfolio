@@ -3,7 +3,7 @@ import "./Projects.css"
 function Projects() {
     return (
         <div className="cardContainer">
-        <h1>My projects</h1>
+        <h1>My Personal projects</h1>
       <div className="card">
         <img src="https://www.pinclipart.com/picdir/big/51-519672_yellow-softball-clip-art-at-clker-s-train.png"/>
       <h2>S store</h2>
