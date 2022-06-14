@@ -7,7 +7,7 @@ function Header() {
         <img src="https://image.freepik.com/free-vector/cartoon-people-character-design-happy-young-man-working-laptop-sitting-front-desk-ideal-both-print-web-design_311865-7600.jpg"/>
           <p>Hello</p><br/>
           <h1><strong>I'm Pavan Siddhartha</strong></h1><br/>
-          <p>Student at KL University</p><br/>
+          <p>Associate System Engineer at IBM</p><br/>
          <img src="./images/about.jpg"/>
       <a href="https://drive.google.com/file/d/1DIJSYH9O1rs46AFuvtEuW4n5JY_8Ah3Q/view"target="_blank">    <button className="btn1">My Resume</button></a>
      
